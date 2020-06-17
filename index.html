@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+   <head>
+      <title>Yo-Yo pizza</title>
+      <!--meta tags -->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <script>
+         addEventListener("load", function () {
+         	setTimeout(hideURLbar, 0);
+         }, false);
+         
+         function hideURLbar() {
+         	window.scrollTo(0, 1);
+         }
+      </script>
+      <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+      <link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+      <link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+      <!--//stylesheets-->
+      <link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+      <link href="//fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+      <link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+   </head>
+   <body>
+      <div class="header-main" id="home">
+         <div class="header-outs">
+            <div class="header-bar">
+               <h1><a href="index.html">Yo-Yo Pizza</a></h1>
+            </div>
+            <div class="clearfix"> </div>
+         </div>
+         <div class="slider">
+            <div class="callbacks_container">
+               <ul class="rslides" id="slider4">
+                  <li>
+                     <div class="slider-img one-img">
+                        <div class="container">
+                           <div class="slider-info ">
+                              <h5>Fun times With Yo-YO Pizza</h5>
+                              <div class="bottom-info">
+                                 <h4 >Yo-YO PIZZA</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="slider-img two-img">
+                        <div class="container">
+                           <div class="slider-info ">
+                              <h5>Small Bite Make Joy</h5>
+                              <div class="bottom-info">
+                                 <h4 >Yo-YO PIZZA</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+                  <li>
+                     <div class="slider-img three-img">
+                        <div class="container">
+                           <div class="slider-info">
+                              <h5>Enjoy A day With Yo-Yo Pizza </h5>
+                              <div class="bottom-info">
+                                 <h4 >Yo-YO PIZZA</h4>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="clearfix"></div>
+         </div>
+      </div>
+      <section class="about py-lg-4 py-md-3 py-sm-3 py-3" id="about">
+         <div class="container py-lg-5 py-md-5 py-sm-4 py-4">
+            <div class="row agile-abt-info ">
+               <div class="col-lg-6 col-md-6 w3layouts-left-side-img">
+                  <img src="images/ab1.png" alt="" class="img-fluid">
+               </div>
+               <div class="col-lg-6 col-md-6 info-sub-w3 pb-lg-3 pb-md-2 pb-2">
+                  <div class="jst-wthree-text pb-3">
+                     <h2>Welcome to Yo-Yo pizza
+                     </h2>
+                     <p>We are not only make pizza here,<br>We make yummy and tasty pizza </p>
+                  </div>
+                  <p>Yo-YO pizza is a trusted franchise.
+                     We are here to help you 24X7.We take orders anytime with our PIZZA BOT.
+                     This pizza bot helps in each step of your pizza order proceedings.
+                     This pizza bot runs on tried and tested algorithm.
+                     Please! have a chat with our pizza bot.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="footer-reservation py-lg-4 py-md-4 py-sm-3 py-3">
+         <div class="container py-lg-3 py-md-3 py-3">
+            <div class="row text-center">
+               <div class="col-lg-8 wthree-right-left">
+                  <div class="wls-hours-list">
+                     
+                  </div>
+               </div>
+               <div class="col-lg-4 wthree-left-right upper-footer">
+                  <div class="middle-mid-grid">
+                     <h4 class="pb-lg-3 pb-3">Chat with me for order</h4>
+                     <div class="book-here">
+                        <p>Below is your pizza bot to take your orders.Click the botton below to chat & order</p>
+                        <a href="https://sonu_singh.hellotars.com/conv/EJVRM6/" class="text-center"> PIZZA BOT </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="buttom-footer py-lg-4 py-md-3 py-sm-3 py-3">
+         <div class="container pt-lg-5 pt-md-5 pt-sm-4 pt-4">
+            <div class="row footer-agile-grids ">
+               <div class="col-lg-6 col-md-12 wthree-left-right">
+                  <div class="row">
+                  </div>
+               </div>
+               <div class="wthree-left-right col-lg-1 col-md-12">
+                 
+                  
+               </div>
+            </div>
+         </div>
+      </section>
+      <footer>
+         <p>YO-YO Pizza|Designed by <a href="https://www.linkedin.com/in/sonu-singh-346988152" target="_blank">Sonu Singh</a></p>
+      </footer>
+      <script src='js/jquery-2.2.3.min.js'></script>
+      <script>
+         (function($){
+         	// Menu Functions
+         	$(document).ready(function(){
+         	$('#menuToggle').click(function(e){
+         		var $parent = $(this).parent('.menu');
+         	  $parent.toggleClass("open");
+         	  var navState = $parent.hasClass('open') ? "hide" : "show";
+         	  $(this).attr("title", navState + " navigation");
+         			setTimeout(function(){
+         				console.log("timeout set");
+         				$('#menuToggle > span').toggleClass("navClosed").toggleClass("navOpen");
+         			}, 200);
+         		e.preventDefault();
+         	});
+           });
+         })(jQuery);
+      </script>
+      <script src="js/responsiveslides.min.js"></script>
+      <script>
+         $(function () {
+         	$("#slider4").responsiveSlides({
+         		auto: true,
+         		pager:false,
+         		nav:true ,
+         		speed: 900,
+         		namespace: "callbacks",
+         		before: function () {
+         			$('.events').append("<li>before event fired.</li>");
+         		},
+         		after: function () {
+         			$('.events').append("<li>after event fired.</li>");
+         		}
+         	});
+         
+         });
+      </script> 
+      <script src="js/easy-responsive-tabs.js"></script>
+      <script>
+         $(document).ready(function () {
+         $('#horizontalTab').easyResponsiveTabs({
+         type: 'default',            
+         width: 'auto', 
+         fit: true,   
+         closed: 'accordion', 
+         activate: function(event) { 
+         var $tab = $(this);
+         var $info = $('#tabInfo');
+         var $name = $('span', $info);
+         $name.text($tab.text());
+         $info.show();
+         }
+         });
+         });
+          
+      </script>	 
+      <script>
+         jQuery.fn.liScroll = function(settings) {
+         	settings = jQuery.extend({
+         		travelocity: 0.01
+         		}, settings);		
+         		return this.each(function(){
+         				var $strip = jQuery(this);
+         				$strip.addClass("newsticker")
+         				var stripHeight = 1;
+         				$strip.find("li").each(function(i){
+         					stripHeight += jQuery(this, i).outerHeight(true); // thanks to Michael Haszprunar and Fabien Volpi
+         				});
+         				var $mask = $strip.wrap("<div class='mask'></div>");
+         				var $tickercontainer = $strip.parent().wrap("<div class='tickercontainer'></div>");								
+         				var containerHeight = $strip.parent().parent().height();	//a.k.a. 'mask' width 	
+         				$strip.height(stripHeight);			
+         				var totalTravel = stripHeight;
+         				var defTiming = totalTravel/settings.travelocity;	// thanks to Scott Waye		
+         				function scrollnews(spazio, tempo){
+         				$strip.animate({top: '-='+ spazio}, tempo, "linear", function(){$strip.css("top", containerHeight); scrollnews(totalTravel, defTiming);});
+         				}
+         				scrollnews(totalTravel, defTiming);				
+         				$strip.hover(function(){
+         				jQuery(this).stop();
+         				},
+         				function(){
+         				var offset = jQuery(this).offset();
+         				var residualSpace = offset.top + stripHeight;
+         				var residualTime = residualSpace/settings.travelocity;
+         				scrollnews(residualSpace, residualTime);
+         				});			
+         		});	
+         };
+         
+         $(function(){
+             $("ul#ticker01").liScroll();
+         });		  
+          
+      </script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/jquery.countup.js"></script>
+      <script>
+         $('.counter').countUp();
+      </script>
+      <script src="js/move-top.js"></script>
+      <script src="js/easing.js"></script>
+      <script>
+         jQuery(document).ready(function ($) {
+         	$(".scroll").click(function (event) {
+         		event.preventDefault();
+         		$('html,body').animate({
+         			scrollTop: $(this.hash).offset().top
+         		}, 900);
+         	});
+         });
+      </script>
+      <script>
+         $(document).ready(function () {
+         
+         	var defaults = {
+         		containerID: 'toTop', 
+         		containerHoverID: 'toTopHover', 
+         		scrollSpeed: 1200,
+         		easingType: 'linear'
+         	};
+         
+         
+         	$().UItoTop({
+         		easingType: 'easeOutQuart'
+         	});
+         
+         });
+      </script>
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>
