@@ -7,7 +7,7 @@ STEPS TO BE FOLLOWED
 
 2.Now click on the button "PIZZA BOT" to chat and place order.
 
-3.Choose your preference of pizza for type,size,toppings,etc while chatting and add a drink if you want.
+3.Choose your preference of pizza for type,size,toppings,etc while chating and add a drink if you want.
 
 4.Now fill your details e.g. name,mobile number ,address,etc (all these are stored in the database).
 
